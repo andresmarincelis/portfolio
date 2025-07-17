@@ -6,14 +6,16 @@ interface PortfolioBoxProps {
     id?: number;
     title: string;
     image: string;
-    urlGithub: string;
-    isPlaceholder?: string;
+    urlGithub: string | null;
+    urlDemo?: string | null;
+    isPlaceholder?: boolean;
   };
 }
 
 const PortfolioBox = (props: PortfolioBoxProps) => {
   const { data } = props;
   const { title, image, urlGithub, isPlaceholder } = data;
+
   return (
     <div className="p-4 border border-teal-50 rounded-xl">
       <h3 className="mb-4 text-xl font-bold">{title}</h3>
