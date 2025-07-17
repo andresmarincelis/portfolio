@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply text-white bg-gradient-cover bg-no-repeat min-h-screen;
+}
+
+main {
+  background: transparent;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  background-color: #0e0e0e;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
