@@ -13,8 +13,10 @@ const NavBar = () => {
       position="right"
       className="fixed z-40 flex flex-col items-center justify-center w-full mt-auto h-max bottom-10"
     >
-      <nav>
-        <div className="flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-white/15 background-blur-sm">
+      {/* Contenedor principal con grupo para manejar hover */}
+      <nav className="group">
+        {/* Navbar con opacidad baja y escala, ambas transicionan al hacer hover */}
+        <div className="flex items-center justify-center gap-2 px-4 py-1 rounded-full bg-white/10 backdrop-blur-sm opacity-30 scale-100 group-hover:opacity-100 group-hover:scale-105 transition-all duration-500">
           {itemsNavbar.map((item) => (
             <div
               key={item.id}

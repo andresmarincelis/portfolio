@@ -7,13 +7,13 @@ const Avatar = () => {
   return (
     <MotionTransition
       position="bottom"
-      className="bottom-10 right-0 hidden md:inline-block md:absolute"
+      className="fixed bottom-0 right-0 hidden md:inline-block z-10"
     >
       <Image
         src="/avatar-2.png"
         width={350}
         height={350}
-        className="w-full h-full mt-20"
+        className="w-auto h-[350px]"
         alt="Avatar"
       />
     </MotionTransition>

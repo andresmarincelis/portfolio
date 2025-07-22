@@ -11,10 +11,13 @@ main {
   background: transparent;
 }
 
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets
-  .swiper-pagination-bullet {
-  background-color: #0e0e0e;
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: -5px !important; /* Ajusta el número según necesites */
+}
+
+.swiper-pagination-bullet {
+  background-color: orangered !important;
 }
 
 @layer utilities {

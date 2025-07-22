@@ -137,7 +137,7 @@ export const serviceData = [
     icon: <Monitor />,
     title: "Desarrollo frontend",
     description:
-      "Interfaces web y móviles con React, React Native, TypeScript y Tailwind CSS, enfocadas en usabilidad y diseño básico responsivo.",
+      "Interfaces web y móviles con React, TypeScript y Tailwind CSS, enfocadas en usabilidad y diseño básico responsivo.",
   },
   {
     icon: <Zap />,
