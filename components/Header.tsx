@@ -66,5 +66,3 @@ const Header = () => {
 };
 
 export default Header;
-
-//aun no se muestra el otro modal al apretar ahi
