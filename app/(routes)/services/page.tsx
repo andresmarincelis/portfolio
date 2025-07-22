@@ -17,7 +17,7 @@ const Services = () => {
       <AvatarServices />
       <div
         className="grid items-center justify-center min-h-screen max-w-5xl 
-  gap-6 mx-auto md:grid-cols-2 px-4"
+  gap-6 mx-auto md:grid-cols-2 px-4 pt-[80px]"
       >
         <div className="max-w-[450px] mt-10 md:mt-0 md:ml-5">
           <h1 className="text-2xl leading-tight text-center md:text-left md:text-4xl md:mb-5">
