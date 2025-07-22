@@ -14,7 +14,7 @@ const AboutMe = () => {
         <Avatar />
         <h1
           className="text-2xl leading-tight
-         text-center text-white md:text-left md:text-5xl md:mt-10 mx-auto max-w-3xl pt-[80px]"
+         text-center text-white md:text-left md:text-5xl md:mt-10 mx-auto max-w-3xl"
         >
           Toda mi{" "}
           <span className="font-bold text-secondary">

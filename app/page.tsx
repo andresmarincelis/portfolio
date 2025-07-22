@@ -4,7 +4,7 @@ import TransitionPage from "@/components/TransitionPage";
 
 export default function Home() {
   return (
-    <main className="pt-24 md:pt-0">
+    <main>
       <TransitionPage />
       <div className="flex min-h-[100vh] h-full bg-no-repeat">
         <CoverParticles />

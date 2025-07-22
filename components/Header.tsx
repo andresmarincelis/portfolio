@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <MotionTransition
       position="bottom"
-      className="fixed z-40 inline-block top-0 w-full px-20 bg-gradient-cover bg-no-repeat bg-cover py-12"
+      className="z-40 inline-block top-0 w-full px-20 bg-gradient-cover bg-no-repeat bg-cover py-12"
     >
       <header>
         <div className="container justify-between max-w-6xl mx-auto md:flex">

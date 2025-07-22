@@ -14,7 +14,7 @@ const PortfolioPage = () => {
       <AvatarPortfolio />
       <CircleImage />
 
-      <div className="flex flex-col justify-center h-full pt-[80px]">
+      <div className="flex flex-col justify-center h-full pb-36">
         <h1 className="text-2xl leading-tight text-center md:text-4xl md:mb-5 text-white font-bold">
           Mis últimos
           <span className="text-secondary font-bold"> trabajos realizados</span>
